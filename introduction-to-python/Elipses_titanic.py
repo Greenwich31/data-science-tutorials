@@ -33,7 +33,7 @@ def plot_cov_ellipse(cov, pos, nstd=2, ax=None, **kwargs):
     return ax
 
 # --- Titre ---
-st.title("Partie 3 : Ellipses sur le jeu de données Titanic")
+st.title("⚪🚢 Ellipses sur le jeu de données Titanic")
 
 # --- Charger le dataset ---
 titanic = pd.read_csv("introduction-to-python/train.csv")

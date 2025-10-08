@@ -7,7 +7,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title("📊 Visualisation - Titanic")
+st.title("🚢 Visualisation - Titanic")
 
 # Charger le dataset
 df = pd.read_csv("introduction-to-python/train.csv")
