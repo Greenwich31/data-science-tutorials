@@ -3,8 +3,9 @@ import streamlit as st
 page_0 = st.Page("Acceuil.py",title="Accueil")
 page_1 = st.Page("rapport_titanic.py",title="Visualisation - Titanic")
 page_2 = st.Page("Gaussian.py",title="Gaussian Scatter Matrices")
+page_3 = st.Page("Elipses_titanic.py",title="Elipses on Titanic data")
 
-pg = st.navigation([page_0,page_1,page_2])
+pg = st.navigation([page_0,page_1,page_2,page_3])
 
 pg.run()
 
