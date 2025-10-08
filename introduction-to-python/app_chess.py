@@ -24,7 +24,8 @@ with st.sidebar:
     st.header("Contrôles")
     if st.button("Nouvelle partie"):
         reset_game()
-    orientation = st.selectbox("Orientation du plateau", options=["white", "black"], index=0)
+    orientation_str = st.selectbox("Orientation du plateau", options=["white", "black"], index=0)
+    orientation = True if orientation_str == "white" else False
     size = st.slider("Taille du plateau (px)", min_value=200, max_value=900, value=480)
     st.markdown("---")
     st.write("**FEN actuelle**")
